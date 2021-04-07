@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Auto Like",
+  "description": "Автоклик по лайкам на YouTube",
+  "version": "1.0",
+  
+  "icons": {
+    "128": "/assets/image/like128.png",
+    "64": "/assets/image/like64.png",
+    "32": "/assets/image/like32.png",
+    "16": "/assets/image/like16.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [ "https://www.youtube.com/*" ],
+      "js": [ "/assets/js/clickToLike.js" ],
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": [
+    "https://www.youtube.com/*"
+  ],
+
+  "browser_action": {
+    "default_title": "YouTube Auto Like",
+    "default_icon": "/assets/image/like128.png"
+  }
+}
