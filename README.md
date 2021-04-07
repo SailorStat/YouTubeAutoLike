@@ -1,4 +1,4 @@
-# Twitch Auto Chest ![](https://github.com/SailorStat/YouTubeAutoLike/blob/main/Open%20code/assets/image/like32.png?raw=true)
+# YouTube Auto Like ![](https://github.com/SailorStat/YouTubeAutoLike/blob/main/Open%20code/assets/image/like32.png?raw=true)
 ## _Chrome extension for auto-liked video on YouTube_
 ### Installing the extension
 To use it, just download the YouTubeAutoLike.crx file and install it in Chrome.
